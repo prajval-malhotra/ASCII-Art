@@ -1,6 +1,6 @@
 CXX = g++
 CXXFLAGS = -g -std=c++14 -Wall -MMD
-EXEC = a4q3
+EXEC = art
 OBJECTS = studio.o asciiart.o blank.o main.o decorator.o filledBox.o blinkingBox.o movingBox.o maskBox.o subject.o addtext.o addgraphics.o window.o
 DEPENDS = ${OBJECTS:.o=.d}
 
